@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NOTE: Ensure to mark all '.hbm.xml' mapping files as 'Build Action : Embedded Resource' in Visual Studio -->
+<!-- Right click : Properites : Advanced Tab : 'Build Action' on the '.hbm.xml' -->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+
+	<class name="Cuyahoga.Modules.CuyAccordion.Domain.AccordionItem, Cuyahoga.Modules.CuyAccordion" table="cm_AccordionItem">
+
+		<id name="AccordionItemId" column="AccordionItemId" type="int" unsaved-value="-1">
+			<generator class="native"/>
+		</id>
+		<many-to-one name="ParentAccordion" class="Cuyahoga.Modules.CuyAccordion.Domain.Accordion, Cuyahoga.Modules.CuyAccordion" column="ParentAccordion" cascade="none"/>
+		<property name="Title" column="Title" type="string"/> 
+		<property name="HTML" column="HTML" type="string"/> 
+		<property name="Created" column="Created" type="datetime"/> 
+		<property name="Active" column="Active" type="boolean"/> 
+
+
+	</class>
+</hibernate-mapping>
+

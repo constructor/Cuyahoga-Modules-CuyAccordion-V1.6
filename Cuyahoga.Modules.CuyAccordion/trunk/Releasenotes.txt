@@ -1,0 +1,37 @@
+CuyAccordion release notes
+===========================================================================
+1.6.0 - 2009-05-22
+===========================================================================
+Added:
+- Shuffle sorting of accordion items
+- Added latest accordion js with 'COLLAPSIBLE', 'ACTIVE_INDEX', 'AUTO_HEIGHT' and 'CLEAR_STYLE' custom settings.
+- Now has the ability to set default open index or close all.
+
+NOTE: Breaks v1.0 (so install only after uninstalling previous or doing clean install)
+
+===========================================================================
+1.6.0 - 2009-05-16
+===========================================================================
+
+A module Cuyahoga enabling the 'jquery.accordion.js' jQuery plugin http://docs.jquery.com/UI/Accordion
+
+Features:
+- Create multiple Accordions
+- Upload images/file and add HTML to the Accordion Items with fckEditor.
+- Accordions Node specific: When editing Accordions only those created on the node show.
+- You can now have multiple Accordions in a node. The js is added via 'RegisterClientScriptBlock()'.
+- Modal fckEditor popup in AccordionItems GridView editor.
+
+This is the original version built using a customised (but core and module compatible) trunk Cuyahoga. A version tested on Cuyahoga 1.6x is in the trunk. The module should work with 1.5 also without too much trouble, I have not tested.
+
+This is the first release. There are still some features to be added and some  
+Cleaning up/refactoring to do. 
+
+CuyAccordion is a basic module that makes it easy to add Accordions to your Cuyahoga site.
+
+Bugfixes:
+- send bug finds to john@novocreations.com or post on the forum
+
+This was actually built using a slightly customised (but still core and module compatible) and then briefly tested with Cuyahoga 1.6.
+
+It is a simple little module. There are a few other bits I may add and the code has yet to be cleaned/refactored a little. But it seems to work fine.
